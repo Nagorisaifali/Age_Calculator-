@@ -8,7 +8,8 @@ const Agecalc = () => {
 
     const calculateAge = () =>{             
         const today = new Date() ;              
-        const birth = new Date(birthdate) ;                 
+        const birth = new Date(birthdate) ;             
+        
 
         let age = today.getFullYear() - birth.getFullYear() ;                       
         let monthdiff = today.getMonth() - birth.getMonth() ;    
